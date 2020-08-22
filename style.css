@@ -106,18 +106,15 @@ nav ul li {
 .about-inner img {
     width: 100%;
     margin: 0 auto;
-    /* width: 400px; */
-    /* padding-left: 50px; */
 }
 
 .about-inner-text {
     padding: 20px 0 0 0;
-    /* width: 50%; */
 }
 
 
 .about-inner h2 {
-    /* font-size: 36px; */
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -156,9 +153,7 @@ nav ul li {
 }
 
 .skills-inner h2 {
-    /* font-size: 36px; */
-    /* padding: 0 70px; */
-    /* margin-bottom: 40px; */
+    font-size: 30px;
     margin-bottom: 80px;
 }
 
