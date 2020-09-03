@@ -84,7 +84,7 @@
             <h2>Let's connect.</h2>
             <h3>Have a question or think we might work together?</h3>
 
-            <form id="contact-form">
+            <form action="POST" data-netlify="true" id="contact-form">
                 <a name="contact"></a>
 
                 <label>Name</label>
@@ -98,6 +98,10 @@
 
                 <label>Message</label>
                 <textarea class="input-field" name="message"></textarea>
+                <label>
+                    <div data-netlify-recaptcha="true"></div>
+                </label>
+
                 <div class="submit-btn-wrapper">
                     <input id="submit-btn" type="submit" value="Send">
                 </div>
