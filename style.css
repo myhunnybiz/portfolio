@@ -40,7 +40,7 @@ ul {
     margin: auto;
 }
 
-button {
+.btn {
     background: transparent;
     border: 1px solid #da9b62;
     display: inline-block;
@@ -54,7 +54,7 @@ button {
     cursor: pointer;
 }
 
-button:focus {
+.btn:focus {
     outline: none;
 }
 
@@ -88,7 +88,7 @@ nav ul li {
     font-weight: 300;
 }
 
-.showcase button:hover {
+.showcase .btn:hover {
     background: #da9b62;
     color: #191919;
     font-weight: 700;
@@ -123,12 +123,12 @@ nav ul li {
     line-height: 1.8;
 }
 
-.about button {
+.about .btn {
     border: 1px solid #da9b62;
 	color: #191919;
 }
 
-.about button:hover {
+.about .btn:hover {
     background: #191919;
     color: #da9b62;
     border: 1px solid #191919
@@ -167,7 +167,7 @@ nav ul li {
     margin-top: 40px;
 }
 
-.skills button:hover {
+.skills .btn:hover {
     background: #da9b62;
     color: black;
     font-weight: 700;
