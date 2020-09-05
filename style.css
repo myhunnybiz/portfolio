@@ -325,9 +325,6 @@ footer {
     background-color: black;
     color:  #ffffff;
     padding: 100px 0 50px 0;
-    /* height: 400px; */
-    /* display: flex;
-    align-items: center; */
 }
 
 .footer-inner {
@@ -335,13 +332,13 @@ footer {
 }
 
 .footer-inner h2 {
-    /* font-size: 36px; */
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .footer-inner  ul {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .footer-inner ul li {
