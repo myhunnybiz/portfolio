@@ -130,9 +130,9 @@ nav ul li {
 
 .showcase {
     display: flex;
-    align-items: flex-end;
-    justify-items: center;
+    align-items: center;
     height: 100vh;
+    padding-top: 30vh;
 }
 
 .showcase-inner h1 {
