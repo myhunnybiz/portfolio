@@ -39,6 +39,7 @@ ul {
     width: 90%;
     max-width: 1200px;
     margin: auto;
+    height: 100vh;
 }
 
 .btn {
@@ -129,9 +130,9 @@ nav ul li {
 
 .showcase {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-items: center;
-    height: 900px;
+    height: 100vh;
 }
 
 .showcase-inner h1 {
