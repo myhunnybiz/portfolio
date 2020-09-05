@@ -9,6 +9,7 @@
 
 body {
     font-family: Open Sans, sans-serif;
+    transition: transform 0.7s ease;
 }
 
 a {
@@ -64,9 +65,59 @@ header {
     background-color: black;
     color:  #ffffff;
     height: 100vh;
+    position: relative;
 }
 
-nav ul {
+button {
+    background: transparent;
+    color: #ffffff;
+    padding: 0;
+    border: 0;
+}
+
+button:hover {
+    color:  #da9b62;
+}
+
+button:focus {
+    outline: none;
+}
+
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+body.show-nav {
+    transform: translateX(-200px);
+}
+
+nav {
+    background-color:black;
+    border-left: 1px solid #da9b62;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 100;
+    transform: translateX(+100%);
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav ul li {
+    border-bottom: 1px solid #da9b62;
+    padding: 20px;
+}
+
+nav ul li:first-of-type {
+    border-top: 1px solid #da9b62;
+}
+
+/* nav ul {
     display: flex;
     justify-content: flex-end;
     padding: 20px 0;
@@ -74,7 +125,7 @@ nav ul {
 
 nav ul li {
     padding: 0 20px;
-}
+} */
 
 .showcase {
     display: flex;
