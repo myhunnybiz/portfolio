@@ -25,6 +25,7 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .16em;
+    cursor: pointer;
 }
 
 a:hover {
@@ -79,6 +80,7 @@ button {
     color: #ffffff;
     padding: 0;
     border: 0;
+    cursor: pointer;
 }
 
 button:hover {
@@ -106,7 +108,7 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     width: 200px;
     z-index: 100;
     transform: translateX(+100%);
