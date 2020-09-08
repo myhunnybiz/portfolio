@@ -357,6 +357,12 @@ nav ul li {
     color: var(--secondary-color);
     border: 1px solid var(--primary-color);
 }
+
+.g-recaptcha {
+    text-align: center;
+}
+
+
 /* Footer */
 
 footer {
