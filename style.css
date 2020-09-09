@@ -358,10 +358,6 @@ nav ul li {
     border: 1px solid var(--primary-color);
 }
 
-.g-recaptcha {
-    text-align: center;
-}
-
 
 /* Footer */
 
@@ -402,10 +398,6 @@ footer {
 
     .showcase-inner h1 {
         font-size: 90px;
-    }
-
-    .skills-inner {
-        padding-top: 100px;
     }
     
     .skill-grid {
