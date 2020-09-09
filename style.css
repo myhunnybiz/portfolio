@@ -233,7 +233,6 @@ nav ul li {
 .skills {
     background-color: var(--primary-color);
     color:  #ffffff;
-    /* height: 900px; */
     display: flex;
     align-items: center;
 }
@@ -245,7 +244,6 @@ nav ul li {
 
 .skills-inner h2 {
     font-size: 30px;
-    margin-bottom: 80px;
 }
 
 .skills-inner h3 {
